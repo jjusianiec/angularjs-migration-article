@@ -13,7 +13,9 @@ define([
 
 ], function () {
     
-    var app = angular.module('apsello',
+    let moduleName = 'apsello';
+    
+    var app = angular.module(moduleName,
         ['i18n.translateProvider',
             'ngRoute',
             // ...
@@ -31,7 +33,7 @@ define([
 
     // ...
 
-    angular.bootstrap(document.getElementsByTagName("html")[0], ["apsello"]);
+    angular.bootstrap(document.getElementsByTagName("html")[0], [moduleName]);
 
-    return app;
+    return moduleName;
 });
