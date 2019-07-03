@@ -17,7 +17,8 @@
 │   │   ├── module2
 │   │   ├── module3
 │   │   ├── dashboard.html
-│   │   └── descriptor.js
+│   │   ├── descriptor.js
+│   │   └── index.html
 │   │
 │   ├── app
 │   ├── assets
