@@ -1,0 +1,35 @@
+.
+├── angular.json
+├── e2e
+│   ├── app.e2e-spec.tsgothinkster/angular-realworld-example-app/tree/master/src/app
+│   ├── app.po.ts
+│   └── tsconfig.e2e.json
+├── karma.conf.js
+├── node_modules
+...
+├── package.json
+├── package-lock.json
+├── protractor.conf.js
+├── proxy-conf.json
+├── src
+│   ├── angularjs
+│   │   ├── module1
+│   │   ├── module2
+│   │   ├── module3
+│   │   ├── dashboard.html
+│   │   └── descriptor.js
+│   │
+│   ├── app
+│   ├── assets
+│   ├── environments
+│   ├── i18n
+│   ├── index.html
+│   ├── main.ts
+│   ├── polyfills.ts
+│   ├── test.ts
+│   ├── tsconfig.app.json
+│   ├── tsconfig.spec.json
+│   └── typings.d.ts
+├── tsconfig.json
+└── tslint.json
+
