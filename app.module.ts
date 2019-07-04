@@ -1,24 +1,25 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {UpgradeModule} from '@angular/upgrade/static';
-import angularJsModuleName from '../angularjs/descriptor';
 
+import {AppComponent} from './app.component';
+import {UpgradeModule} from '@angular/upgrade/static';
+import {AngularHomeComponent} from './angular-home/angular-home.component';
+import moduleName from '../angularjs/descriptor';
 
 @NgModule({
+  declarations: [
+    AppComponent,
+    AngularHomeComponent,
+  ],
   imports: [
     BrowserModule,
     UpgradeModule
-  ]
-  // ...
-  // bootstrap: [ ... ] <---- this must be removed!
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule {
-  
-  constructor(private upgradeModule: UpgradeModule) {
-  }
-
-  public ngDoBootstrap() {
-    // Intialize the AngularJS Module
-    this.upgradeModule.bootstrap(document.body, [angularJsModuleName], { strictDi: true });
+  constructor(private upgrade: UpgradeModule) {
+    this.upgrade.bootstrap(document.getElementById('angularjsContainer'), [moduleName]);
   }
 }
