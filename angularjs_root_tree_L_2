@@ -1,0 +1,10 @@
+.
+├── descriptor.js
+├── home
+│   ├── home.controller.js
+│   ├── home.html
+│   └── home.module.js
+├── /* other angularjs modules */
+├── /* ... */
+├── index.html
+└── requireConfig.js
