@@ -1,36 +1,29 @@
 .
 ├── angular.json
-├── e2e
-│   ├── app.e2e-spec.tsgothinkster/angular-realworld-example-app/tree/master/src/app
-│   ├── app.po.ts
-│   └── tsconfig.e2e.json
-├── karma.conf.js
-├── node_modules
-...
+├── /* standard Angular files */
 ├── package.json
-├── package-lock.json
-├── protractor.conf.js
-├── proxy-conf.json
 ├── src
 │   ├── angularjs
-│   │   ├── module1
-│   │   ├── module2
-│   │   ├── module3
-│   │   ├── dashboard.html
-│   │   ├── descriptor.js
-│   │   └── index.html
-│   │
+│   │   ├── descriptor.js
+│   │   ├── home
+│   │   │   ├── home.controller.js
+│   │   │   ├── home.html
+│   │   │   └── home.module.js
+│   │   ├── index.html
+│   │   └── requireConfig.js
 │   ├── app
+│   │   ├── angular-home
+│   │   │   ├── angular-home.component.html
+│   │   │   ├── angular-home.component.scss
+│   │   │   └── angular-home.component.ts
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.ts
+│   │   └── app.module.ts
 │   ├── assets
-│   ├── environments
-│   ├── i18n
 │   ├── index.html
 │   ├── main.ts
-│   ├── polyfills.ts
-│   ├── test.ts
-│   ├── tsconfig.app.json
-│   ├── tsconfig.spec.json
-│   └── typings.d.ts
+│   ├── /* standard Angular files */
+│   └── tslint.json
 ├── tsconfig.json
 └── tslint.json
-
