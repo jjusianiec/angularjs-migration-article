@@ -1,0 +1,16 @@
+{
+  ...
+  "projects": {
+    "project": {
+      ...
+      "architect": {
+        "build": {
+          "options": {
+            ...
+            "scripts": [
+              "./src/angularjs/lib/angular.min.js",
+              "./src/angularjs/lib/angular-route.min.js"
+            ]
+          }
+  ...  
+}
