@@ -1,16 +1,4 @@
-{
-  ...
-  "projects": {
-    "project": {
-      ...
-      "architect": {
-        "build": {
-          "options": {
-            ...
-            "scripts": [
-              "node_modules/angular/angular.js",
-              "node_modules/angular-route/angular-route.js"
-            ]
-           }
-  ...  
-}
+"scripts": [
+  "node_modules/angular/angular.js",
+  "node_modules/angular-route/angular-route.js"
+]
